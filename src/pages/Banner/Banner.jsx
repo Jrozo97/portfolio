@@ -4,7 +4,13 @@ export const Banner = () => {
   return (
     <section className="banner-container">
       <div className="bc-information">
-        <h1 className="bc-title">¡Hola a todos! Soy Jimmy Rozo</h1>
+        <h1 className="bc-title">
+          ¡Hola a todos!
+          <br />
+          Soy
+          <br />
+          Jimmy Rozo
+        </h1>
         <p className="bc-subtitle">
           Frontend Developer apasionado por la tecnología y la implementación de
           diseños que inspiren

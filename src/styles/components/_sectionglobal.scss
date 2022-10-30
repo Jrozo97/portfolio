@@ -1,3 +1,9 @@
 .container-global {
   padding: 8.5378vh 9.44vw;
 }
+
+.solid {
+  border-top: 2px solid $primary;
+  margin-bottom: 48px;
+  margin-top: 48px;
+}

@@ -7,6 +7,7 @@ function App() {
         <Header />
         <section className="container-global">
           <Banner/>
+          <hr className="solid"></hr>
 
         </section>
 
