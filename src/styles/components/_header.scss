@@ -1,54 +1,53 @@
-.navbar{
-    background: $primary;
-    height: 8vh;
-    padding: 0px 9.44vw;
-    display: flex;
-    align-items: center;
-    position: sticky;
- 
+.navbar {
+  align-items: center;
+  background: $primary;
+  display: flex;
+  height: 8vh;
+  padding: 0px 9.44vw;
+  position: sticky;
 }
 
-.nav-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+.nav-container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
-.nav-logo{
-    justify-self: start;
-    cursor: pointer;
-    width: 5rem;
+.nav-logo {
+  cursor: pointer;
+  justify-self: start;
+  width: 5rem;
 }
 
-.nav-menu{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    text-align: center;
-    width: 60vw;
-    justify-content: flex-end;
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  text-align: center;
+  width: 60vw;
 }
 
-.nav-item{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
+.nav-item {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
 }
 
-.nav-item-text{
-    font-weight: 400;
-    color: $sea_weater;
-    white-space: nowrap;
+.nav-item-text {
+  color: $sea_weater;
+  font-weight: 400;
+  white-space: nowrap;
 }
 
 .nav-item:hover {
-    border-bottom: 4px solid $sea_weater;
-    transition: all 0.2s ease-out;
+  border-bottom: 4px solid $sea_weater;
+  transition: all 0.2s ease-out;
 }

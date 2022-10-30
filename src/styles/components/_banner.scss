@@ -1,59 +1,57 @@
-.banner-container{
-
-    height: 41vh;
-    display: flex;
-    justify-content: space-between;
-
+.banner-container {
+  display: flex;
+  height: 41vh;
+  justify-content: space-between;
 }
 
-.bc-img-frame{
-    width: 23.75vw;
-    max-width: 342px;
-    min-width: 285px;
-    height: 41vh;
-    background-color: $sea_weater;
-    border-radius: 10px;
-    box-shadow: 0px 3px 6px 0px rgba(7,41,62,0.5);
-    object-fit: contain;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.bc-img-frame {
+  align-items: flex-end;
+  background-color: $sea_weater;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px 0px rgba(7, 41, 62, 0.5);
+  display: flex;
+  height: 41vh;
+  justify-content: center;
+  max-width: 342px;
+  min-width: 285px;
+  width: 23.75vw;
 }
 
-.bc-img-profile{
-    width: 15rem;
-    transform: scaleX(-1);
-    object-fit: contain;
+.bc-img-profile {
+  object-fit: contain;
+  transform: scaleX(-1);
+  width: 14rem;
 }
 
-.bc-information{
-    width: 31.25vw;
-    height: auto;   
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
+.bc-information {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: space-between;
+  width: 31.25vw;
 }
 
-.bc-btn{
-    width: 12vw;
-    height: 5.1227vh;
-    background-color: $primary;
-    border: none;
-    border-radius: 10px;
-    color: $sea_weater;
-    font-size: 1em;
-    white-space: nowrap;
-    cursor: pointer;
+.bc-btn {
+  background-color: $primary;
+  border-radius: 10px;
+  border: none;
+  color: $sea_weater;
+  cursor: pointer;
+  font-size: 1em;
+  height: 5.1227vh;
+  white-space: nowrap;
+  width: 12vw;
+  min-width: 157px;
 }
 
-.bc-title{
-    font-size: 2.813em;
-    font-weight: 500;
-    color: $primary;
+.bc-title {
+  color: $primary;
+  font-size: 2.813em;
+  font-weight: 500;
 }
 
-.bc-subtitle{
-    font-size: 1.125em;
-    font-weight: 500;
-    color: $primary;
+.bc-subtitle {
+  color: $primary;
+  font-size: 1.125em;
+  font-weight: 500;
 }
