@@ -1,0 +1,54 @@
+.navbar{
+    background: $primary;
+    height: 8vh;
+    padding: 0px 9.44vw;
+    display: flex;
+    align-items: center;
+    position: sticky;
+ 
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-logo{
+    justify-self: start;
+    cursor: pointer;
+    width: 5rem;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: flex-end;
+}
+
+.nav-item{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.nav-item-text{
+    font-weight: 400;
+    color: $sea_weater;
+    white-space: nowrap;
+}
+
+.nav-item:hover {
+    border-bottom: 4px solid $sea_weater;
+    transition: all 0.2s ease-out;
+}

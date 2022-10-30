@@ -1,11 +1,15 @@
-import Header from "./common/header/Header";
-import Footer from "./common/footer/Footer";
 
+import { Header } from "./components/common/header/Header";
+import { Banner } from "./pages/Banner/Banner";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Footer />
+        <Header />
+        <section className="container-global">
+          <Banner/>
+
+        </section>
+
     </div>
   );
 }

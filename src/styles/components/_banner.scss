@@ -1,0 +1,59 @@
+.banner-container{
+
+    height: 41vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bc-img-frame{
+    width: 23.75vw;
+    max-width: 342px;
+    min-width: 285px;
+    height: 41vh;
+    background-color: $sea_weater;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px 0px rgba(7,41,62,0.5);
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bc-img-profile{
+    width: 15rem;
+    transform: scaleX(-1);
+    object-fit: contain;
+}
+
+.bc-information{
+    width: 31.25vw;
+    height: auto;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.bc-btn{
+    width: 12vw;
+    height: 5.1227vh;
+    background-color: $primary;
+    border: none;
+    border-radius: 10px;
+    color: $sea_weater;
+    font-size: 1em;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.bc-title{
+    font-size: 2.813em;
+    font-weight: 500;
+    color: $primary;
+}
+
+.bc-subtitle{
+    font-size: 1.125em;
+    font-weight: 500;
+    color: $primary;
+}
