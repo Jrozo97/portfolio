@@ -1,5 +1,6 @@
 
 import { Header } from "./components/common/header/Header";
+import { About } from "./pages/About/About";
 import { Banner } from "./pages/Banner/Banner";
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <section className="container-global">
           <Banner/>
           <hr className="solid"></hr>
+          <About/>
 
         </section>
 

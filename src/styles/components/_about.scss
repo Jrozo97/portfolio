@@ -1,0 +1,88 @@
+.container-about {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.ca-image,
+.ca-image-later,
+.ca-image-frontal,
+.ca-description,
+.ca-hobbies {
+  width: 320px;
+  height: 350px;
+}
+
+.ca-image-later {
+  background-color: $sea_weater;
+  position: absolute;
+  border: 10px solid $primary;
+}
+
+.ca-image-frontal {
+  background-color: $sea_weater;
+  border: 10px solid $primary;
+  position: absolute;
+  left: 10px;
+  top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.ca-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ca-hobbies {
+  display: flex ;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ca-img-profile {
+  object-fit: contain;
+  width: 13rem;
+}
+
+.title-description {
+  font-size: 1.563em;
+  color: $primary;
+  font-weight: 600;
+}
+
+.text-description {
+  color: $primary;
+  font-weight: 400;
+}
+
+.btn-cv {
+  background-color: $primary;
+  border-radius: 10px;
+  border: none;
+  color: $sea_weater;
+  cursor: pointer;
+  font-size: 1em;
+  height: 5.1227vh;
+  white-space: nowrap;
+  width: 12vw;
+  min-width: 157px;
+}
+
+.list-hobbies{
+    list-style:none;
+    font-size: 1em;
+    color: $primary;
+
+}
+
+.ca-list{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 24px;
+}
