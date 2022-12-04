@@ -17,7 +17,7 @@ export const About = () => {
             </div>
           </div>
         </div>
-        <diV className="ca-description">
+        <div className="ca-description">
           <h2 className="title-description">Sobre mi</h2>
           <p className="text-description">
             {
@@ -34,18 +34,18 @@ export const About = () => {
             }
           </p>
           <button className="btn-cv">
-            Descargar CV &nbsp; <i class="fa-solid fa-download"></i>
+            Descargar CV &nbsp; <i className="fa-solid fa-download"></i>
           </button>
-        </diV>
+        </div>
         <div className="ca-hobbies">
           <h2 className="title-description">Pasatiempos</h2>
           <ul className="ca-list">
-            <li className="list-hobbies"><i class="fa-solid fa-gamepad"></i> &nbsp; Videojuegos</li>
-            <li className="list-hobbies"><i class="fa-solid fa-film"></i> &nbsp; Cine</li>
-            <li className="list-hobbies"> <i class="fa-solid fa-headphones"></i> &nbsp; Escuchar musica</li>
-            <li className="list-hobbies"><i class="fa-solid fa-book-open-reader"></i> &nbsp; Leer</li>
-            <li className="list-hobbies"><i class="fa-solid fa-plane-departure"></i> &nbsp; Viajes inesperados</li>
-            <li className="list-hobbies"><i class="fa-solid fa-people-roof"></i> &nbsp; Tiempo en familia</li>
+            <li className="list-hobbies"><i className="fa-solid fa-gamepad"></i> &nbsp; Videojuegos</li>
+            <li className="list-hobbies"><i className="fa-solid fa-film"></i> &nbsp; Cine</li>
+            <li className="list-hobbies"> <i className="fa-solid fa-headphones"></i> &nbsp; Escuchar musica</li>
+            <li className="list-hobbies"><i className="fa-solid fa-book-open-reader"></i> &nbsp; Leer</li>
+            <li className="list-hobbies"><i className="fa-solid fa-plane-departure"></i> &nbsp; Viajes inesperados</li>
+            <li className="list-hobbies"><i className="fa-solid fa-people-roof"></i> &nbsp; Tiempo en familia</li>
           </ul>
         </div>
       </section>

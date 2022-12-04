@@ -3,24 +3,37 @@
   margin: 0px;
 }
 
-html, body {
-    font-size: 16px;
-    height: 100vh;
+html,
+body {
+  font-size: 16px;
+  height: 100vh;
 }
 
-.mt-1{
-    margin-top: 8px;
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
 }
 
-.mt-5{
-    margin-top: 24px;
+::-webkit-scrollbar-track {
+  background: #fff;
 }
 
-.mb-1{
-    margin-bottom: 8px;
+::-webkit-scrollbar-thumb {
+  background: #07293E;
 }
 
-.mb-5{
-    margin-bottom: 24px;
+.mt-1 {
+  margin-top: 8px;
 }
 
+.mt-5 {
+  margin-top: 24px;
+}
+
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.mb-5 {
+  margin-bottom: 24px;
+}

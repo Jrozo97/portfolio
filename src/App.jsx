@@ -1,19 +1,22 @@
-
 import { Header } from "./components/common/header/Header";
+import { GeneralProvider } from "./context/GeneralContext";
 import { About } from "./pages/About/About";
 import { Banner } from "./pages/Banner/Banner";
+import { Projects } from "./pages/Projects/Projects";
 function App() {
   return (
-    <div className="App">
+    <GeneralProvider>
+      <div className="App">
         <Header />
         <section className="container-global">
-          <Banner/>
+          <Banner />
           <hr className="solid"></hr>
-          <About/>
-
+          <About />
+          <hr className="solid"></hr>
+          <Projects />
         </section>
-
-    </div>
+      </div>
+    </GeneralProvider>
   );
 }
 
