@@ -14,6 +14,7 @@ function App() {
           <About />
           <hr className="solid"></hr>
           <Projects />
+          <hr className="solid"></hr>
         </section>
       </div>
     </GeneralProvider>

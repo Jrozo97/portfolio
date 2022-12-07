@@ -6,6 +6,8 @@ const GeneralProvider = ({ children }) => {
 
     const currentYear = new Date().getFullYear();
     const [currentProjects, setProjects] = useState(0);
+    const [currentTecnology, setTecnology] = useState(0);
+
 
     const projects = [
         {
@@ -23,7 +25,7 @@ const GeneralProvider = ({ children }) => {
         },
         {
             name: "SwappYourHome",
-            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-c9c55.appspot.com/o/CalendarApp.png?alt=media&token=9904dc29-5cfc-4f9c-8ae5-d9e55addb60a",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-c9c55.appspot.com/o/SwapYourHome.png?alt=media&token=725772f2-b563-4df7-a96c-ff19a52baf8d",
             repository: "",
             deployment: "https://swapyourhome.co/",
             tools: [
@@ -78,16 +80,83 @@ const GeneralProvider = ({ children }) => {
                 "TypeScript",
             ],
         },
+    ]
 
+    const tecnology = [
+        {
+            name: "ReactJs",
+            logo: "fa-brands fa-react",
+        },
+        {
+            name: "HTML",
+            logo: "fa-brands fa-html5",
+        },
+        {
+            name: "CSS",
+            logo: "fa-brands fa-css3",
+        },
+        {
+            name: "JavaScript",
+            logo: "fa-brands fa-square-js",
+        },
+        {
+            name: "NextJS",
+            logo: "",
+        },
+        {
+            name: "Boostrap",
+            logo: "",
+        },
+        {
+            name: "Material UI",
+            logo: "",
+        },
+        {
+            name: "Angular",
+            logo: "",
+        },
+        {
+            name: "Bubble.io",
+            logo: "",
+        },
+        
+    ]
+
+    const toolsTecnologys = [
+        {
+            name: "Git",
+            logo: "",
+        },
+        {
+            name: "Terminal",
+            logo: "",
+        },
+        {
+            name: "Visual Studio Code",
+            logo: "",
+        },
+        {
+            name: "AdobeXD",
+            logo: "",
+        },
+        {
+            name: "Figma",
+            logo: "",
+        },
+        
 
     ]
 
 
     const data = {
         projects,
+        tecnology,
+        toolsTecnologys,
         currentYear,
         currentProjects,
         setProjects,
+        currentTecnology,
+        setTecnology,
     }
 
     return (
